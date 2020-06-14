@@ -1,0 +1,169 @@
+
+ body
+     { 
+    background-color: #F8F8FF;
+    } 
+  /*导航栏*/
+    a{text-decoration: none;}
+    ul{list-style-type: none;}
+    .clear:after{
+        content: '';
+        display: block;
+        height: 0;
+        clear: both;
+    }
+    .nav{
+        cursor: pointer;
+        position: fixed;}
+    .nav li{
+        width: 260px;
+        height: 60px;
+        background: #F8F8FF;
+
+        text-align: center;
+        line-height: 60px;
+    }
+    .nav>ul>li{
+    float: left;    }
+    .nav>ul ul{
+        display: none;
+    }
+    
+    .nav>ul>li ul {
+            display: none;
+            /*隐藏消失*/
+            position: absolute;
+            /*绝对定位*/
+            left: 0;
+            top: 60px;
+            padding-top: 10px;w
+            /*空白间隙*/
+        }
+
+    .nav>ul>li:hover ul{
+        display:block;
+    }
+    
+    .nav li:hover{
+        background-color:  #696969;
+    }
+       .nav li:hover>a {
+            color: #DAA520;
+            font-weight: bold;
+        }
+
+/* logo*/
+    .xlogo{
+        width:1920px;
+        height: 1080px;
+        background:url(../img/ow标志.jpg);
+        }
+
+    .logo{
+        position: relative;
+        top: 590px;
+        left: 535px;
+    }
+
+/* 搜索框*/    
+.sousuo{
+        position: relative;
+        top: 590px;
+        left: 730px;
+        
+    }
+    .search {
+    float: left;
+    width: 145px;
+    padding: 9px;
+    border: 1px solid rgba(208, 61, 61, 1);
+}
+.submit {
+    float: left;
+    width: 36px;
+    height: 36px;
+    border: 1px solid rgb(208, 61, 61, 1);
+    background: rgba(208, 61, 61, 1) url(../img/search.png) no-repeat center center;
+}
+
+
+.photo-item {
+    float: left;
+    position: relative;
+    margin-top:0;
+    margin-left: 10px;
+}
+
+.photo-info {
+    position:relative;
+    top: -65px;
+    left: 0;
+    right: 0;
+    height: 45px;
+    background: rgba(110, 110, 110, 1);
+    opacity: 0.8;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+}
+
+.photo-info h3 {
+    font-size: 20px;
+    padding: 7px 0;
+
+}
+
+.yingxiong{
+    width:1920px;
+        height: 1400px;
+    background:url(../img/bg.jpg);
+
+    
+}
+/*最下面的黑框*/
+
+
+/* footer样式 */
+.footer {
+    height: 350px;
+    padding-top: 18px;
+    background: rgba(58, 58, 58, 1);
+    text-align: center;
+}
+
+.footer h4 {
+    padding: 0px 0 0px;
+    font-size: 36px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer ul {
+    display: inline-block;
+}
+
+.footer li {
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    padding: 0 12px;
+    border-right: 2px solid rgba(255, 255, 255, 1);
+}
+
+.footer li.last {
+    border: none;
+}
+
+.footer p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 20px;
+}
+.clear:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
